@@ -13,11 +13,13 @@
     
     
     form{
-        background-color: blue;
+        background-color: yellowgreen;
     }
 
 
-
+     #{"Edad"
+   font-size: 24
+        }
 
 </style>
 
@@ -29,29 +31,42 @@
 <body>
     <form id="Rock selection">
 
-        <h1>Formulario de grupos</h1>
+        <h1>FORMULARIO GRUPOS MÚSICA</h1>
         
-        <label for="Nombre"> Nombre completo</label><br>
-        <input class="" value= "Nombre" type="text" name="Nombre" id="NombreUsuario"/>
+        <label for="nombreCompleto"> Nombre completo</label><br>
+        <input type="text" name="nombreCompleto" id="NombreUsuario"/>
         
         <br>
         
-        <label for="Edad"> Edad</label> <br>
+        <label for="Edad" id="Edad"> Edad</label> <br>
         <input type="number" name="Edad" min="0" max="18"/>
         
         <br>
         
-        <label for="GruposFavoritos" placeholder="Peluca"></label> <br>
-        <textarea placeholder="Pon tus grupos favoritos aqui" id="GruposFavoritos" cols="30" rows="10"></textarea>
+        <label for="Favourite" ></label> <br>
+        <textarea name="Message" id="gruposFavoritos" cols="30" rows="10" placeholder="Write your favourite groups here"></textarea>
+
+        <br>
+
+        <label for="Gender">Escoge tu genero favorito</label>
+        <select name="Genders" id="Genders">
+            <option value=""> </option>
+            <option value="">Classic</option>
+            <option value="">Rock</option>
+            <option value="">Jazz</option>
+           
+        </select>
         
         <br>
-        
-        <label for=""></label>
-        <input type="text" name="" id="">
+
+        <input type="submit" value="Send">
+        <br>
+
         
         </form>
-</body>
-</html>
+    </body>
+    </html>
+       
 
 
 

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+.section{
+    
+display: grid;
+grid-template-columns: 1fr 7fr;
+grid-template-rows: repeat 2, 1fr 5fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+height: 100vh;
+}
+
+.header{
+
+    background-color: blue;
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.navbar{
+
+background-color: yellow;
+grid-column: 1 / 3;
+grid-row: 2;
+}
+
+.sidebar{
+
+background-color: purple;
+}
+
+.Main{
+
+background-color: red;
+}
+
+    </style>
+
+
+
+
+</head>
+<body>
+<section class="section">
+
+
+    <div class="header"> Header </div>
+<div class="navbar"> Navbar</div>
+<div class="sidebar">sideBar</div>
+<div class="Main">Main</div>
+
+
+
+
+</section>
+
+
+
+
+
+    
+</body>
+</html>
